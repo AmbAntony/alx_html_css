@@ -1,0 +1,267 @@
+.html{
+    box-sizing: border-box;
+    margin: auto;
+    padding: auto;  
+   --purple : #C271FF;
+   --blue : #071629;
+   font-family: "Source Code Pro", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.body{
+    margin: 0 auto;
+}
+
+.page1 {
+    background-image: url(./Object.png);
+    background-size: cover;
+    margin: -8px 0 1px 0;
+    padding: 4px;
+}
+
+
+button{
+    cursor: pointer;
+}
+
+header {
+    font-size: 12px;
+    width:90%;
+    margin: 0px;
+    padding: 30px 10px 0 0;
+    font-weight: 900;
+
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 30px;
+    width: 130px;
+    padding-left: 120px;
+}
+
+ul {
+    display: flex;
+    gap:50px;
+    flex-flow: row;
+    list-style-type: none
+}
+
+.middlepart {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    color: white;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.span_container {
+    display: flex; 
+    gap:40px;
+    margin-top: -90px;
+   
+}
+
+.page_title{
+    font-size: 100px;
+}
+
+.span_container >span{
+    display: flex;
+    font-size: 12px;
+    font-weight: 900;
+    display: block;
+}
+
+.registration_button{
+    background-color: rgb(206, 47, 206);
+    color:white;
+    padding:12px;
+    border-radius: 50px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+.learn_from_the_pros{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:white;
+    margin-top: 140px;
+}
+banner{
+    display: flex;
+    flex-direction: column;
+}
+
+.banner > p{
+    padding-left: 0;
+}
+
+.learn_from_the_pros_container{
+    display: flex;
+    flex-direction: row;
+    gap:100px;   
+}
+
+.learn_from_the_pros >h2 >span{
+    color: rgb(226, 117, 226);
+    font-weight: 900;
+}
+
+.quote_part{
+    display:flex;
+    justify-content: center;
+    gap:30px;
+    background-color: rgb(226, 117, 226);
+    padding:50px;
+    color:white;
+}
+.the_quote{
+    width: 58%;
+}
+
+.the_quote >h3, p, em{
+    padding-left: 40px;
+}
+
+.the_quote > p, em{
+    padding-left: 20px;
+}
+
+.popular_tutorials_container{
+    display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 60px;
+    width:100%;
+}
+
+.popular_tutorials_heading{
+   margin-bottom: 20px;
+   margin-left: 500px;
+   margin-top: 20px;
+}
+
+.popular_tutorials_heading >span{
+    font-weight: 700;
+    color:rgb(226, 117, 226);
+}
+
+
+.popular_tutorails_card > h3,p,div{
+    padding-left:10px;
+    position: relative;
+}
+
+.popular_tutorails_card > div >h4{
+    color:rgb(226, 117, 226)
+}
+
+.ratings_container{
+    display: flex;
+    font-size: 12px;
+    justify-items: center;
+    padding-left: auto;
+    color:rgb(226, 117, 226);
+}
+
+
+.ratings{
+    display: flex;
+    padding-left: 0px;
+    gap:5px;
+}
+
+
+.play_button{
+    border: 0;
+    margin:0;
+    background-color: transparent;
+    position: absolute;
+    left:30%;
+    top:20%;
+     
+}
+.free_membership{
+    background-color: rgb(4, 4, 44);
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:40px 0px;
+    margin-top:50px;
+    gap:40px;
+   
+}
+.free_membership >h2> span{
+    color: var(--purple);
+}
+.free_membership_card_container{
+    display: flex;
+    gap:30px;
+    max-width: 1200px;
+  
+}
+.free_membership_card_container >div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.faq{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.faq h2{
+    font-size: 60px;
+    margin-top:80px;
+    font-weight: 300;
+}
+.faq_body{
+    display:flex;
+   max-width: 1200px;
+   width:80%;
+   
+ 
+}
+
+.faq_body h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+   
+}
+footer{
+   background-color: rgb(4, 4, 44);
+   color: white;
+   text-align: center;
+   padding:70px;
+   margin-top:50px;
+   
+}
+.footer_links{
+    display: flex;
+    justify-content: space-between;
+   max-width: 1200px;
+   margin: auto;
+
+
+}
